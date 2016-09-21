@@ -9,16 +9,16 @@ We're going to make a file that will print ["Hello World!"](http://en.wikipedia.
 1. Create a new Ruby file.
 2. Write syntactically valid code to produce "Hello World!"
 3. Run a Ruby file.
-4. Run the Learn gem.
-5. Submit a Learn lab.
+4. Install the `rspec` gem.
+5. Run `rspec`.
 
 ## Instructions
 
-Get started by clicking the Open button in Learn. 
+Get started by forking and cloning this lab into `00-intro` (don't forget to `cd` into it!). 
 
 ### Creating a File
 
-You will need to create a text file called `hello_world.rb` within the lab's directory. The `.rb` file extension is a common convention for specifying the language of the file - in this case, Ruby. To create this, in the Learn IDE's terminal type `touch hello_world.rb`. If that worked as expected, you should now see the file appear in the file browser. You can open this file by double clicking on it in the file browser or by typing `atom hello_world.rb`. You should now see an empty file open in your text editor, ready to be edited. 
+You will need to create a text file called `hello_world.rb` within the lab's directory. The `.rb` file extension is a common convention for specifying the language of the file - in this case, Ruby. To create this, in the terminal type `touch hello_world.rb`. If that worked as expected, you should now see the file appear in the file browser. You can open this file by double clicking on it in the file browser or by typing `c9 hello_world.rb`. You should now see an empty file open in your text editor, ready to be edited. 
 
 ### Writing Code
 
@@ -29,7 +29,7 @@ File: `hello_world.rb`
 puts "Hello World!"
 ```
 
-Anytime you make changes to a file, such as the one you've just made, you need to save it so these changes are preserved. If you forget to save it before you run your tests, it will be tested against an empty document! Always remember to save it every time you make changes by selecting Save from the File menu.
+Anytime you make changes to a file, such as the one you've just made, you need to save it so these changes are preserved. If you forget to save it before you run your tests, it will be tested against an empty document! Always remember to save it every time you make changes by selecting Save from the File menu.  **In cloud9, auto-save works 99% of the time.  But if your code and/or test isn't working the way you expect, double-check that your file is saved by manually saving it (cmd+s).** As a worst-case-scenario, select & copy the code, close the file, re-open it, and replace (paste) the code back in.
 
 ### Executing Your File
 
@@ -44,17 +44,19 @@ $ ruby hello_world.rb
 Hello World!
 ```
 
-### Running Learn
+### Installing the `rspec` gem
 
-Confirm everything is working by running the `learn` command. You should see that all tests are passing (e.g. no red error text). 
+In order to check that we've written our code correctly, we can use a test suite called **rspec**.  To install it, type `gem install rspec` into your terminal.
 
-Note: When you write code, the case (uppercase/lowercase) of characters matters, and so your test will not pass unless you print "Hello World!" exactly. 
+### Running `rspec`
 
-### Submitting Your Lab
+Confirm everything is working by simply typing `rspec` into your terminal. You should see that all tests are passing (e.g. all green, no red error text). 
 
-Submit your solution by typing `learn submit` into your terminal, then click Next Lesson to move on.
+Note: When you write code, the case (uppercase/lowercase) of characters matters, and so your test will not pass unless you print "Hello World!" exactly (and include the exclamation mark). 
 
-Your adventure in Ruby has only just begun.
+### You're all done!
+
+In nearly every programming language you learn, printing `Hello World!` is always your first task. Your adventure in Ruby has only just begun.
 
 ### Hello World History
 
@@ -63,5 +65,3 @@ A small piece of coding history—a handwritten version of Hello World in C (an 
 ![Hello World! Art](https://d32dm0rphc51dk.cloudfront.net/b6JQ66-0nHij79irJT-Pdg/large.jpg)
 
 _[Hello World! by Brian Kernighan, from Artsy's Algorythm Auction](https://www.artsy.net/artwork/brian-kernighan-hello-world) based on a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial, which contains the first known version._
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/hello-world-ruby'>Hello World</a> on Learn.co and start learning to code for free.</p>
