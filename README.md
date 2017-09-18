@@ -11,6 +11,7 @@ We're going to make a file that will print ["Hello World!"](http://en.wikipedia.
 3. Run a Ruby file.
 4. Install the `rspec` gem.
 5. Run `rspec`.
+6. Submit a lab via Pull Request.
 
 ## Instructions
 
@@ -53,6 +54,12 @@ In order to check that we've written our code correctly, we can use a test suite
 Confirm everything is working by simply typing `rspec` into your terminal. You should see that all tests are passing (e.g. all green, no red error text). 
 
 Note: When you write code, the case (uppercase/lowercase) of characters matters, and so your test will not pass unless you print "Hello World!" exactly (and include the exclamation mark). 
+
+### Submitting your lab
+
+Remember that only YOU can see that your tests passed when you ran `rspec`.  But there is a way to submit your code to Mr. Mueller:
+
+For many (but not all) labs, you will be asked to submit via a Pull Request.  As long as you got the green light from `rspec`, go ahead and `add`/`commit`/`push` your changes (`hello_world.rb`).  Go visit your repo on Github and refresh the page.  Above the list of folders/files, you should see your latest commit.  Above that, you should see a button for a **New pull request**. Follow the directions to create the pull request. You may see a yellow dot (the `rspec` tests are running server-side) that eventually turns into a green check mark (the `rspec` tests passed!).
 
 ### You're all done!
 
